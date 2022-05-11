@@ -1,0 +1,71 @@
+########################
+alias abra='cd ~/lib/abradatas/'
+alias docker='sudo docker'
+alias books='cd ~/dox/books'
+alias sn='shutdown now'
+alias sys='sudo systemctl'
+alias k='kill'
+alias jl='jupyter-lab'
+alias jn='jupyter-notebook'
+alias ll='ls -l'
+alias lla='ls -la'
+alias la='ls -a'
+alias sur='su root'
+alias showifi="nmcli dev wifi"
+alias wificonnect="nmcli device wifi connect"
+########################
+# Blockchain Development
+########################
+alias ganache='~/bin/ganache.AppImage & disown && exit'
+alias tcon='truffle console'
+########################
+#     I N S T A L L    #
+########################
+alias pipi='pip install'
+alias pipr='pip install -r'
+alias pypi='pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
+alias pypi3='pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U'
+########################
+#       U T I L S      #
+########################
+alias cl='clear'
+alias clall='~/bin/close_windows.sh'
+alias vim='nvim'
+alias exe='chmod +x'
+alias ram='watch "ps --sort -rss -eo pid,pmem,rss,vsz,comm | head -40"'
+alias ka='killall'
+alias venv='virtualenv'
+alias findapp='ps -ef | grep'
+alias cin='source ~/anaconda3/bin/activate'
+alias conde='conda deactivate'
+alias conact='conda activate'
+alias const='source ~/bin/anaconda3/bin/activate'
+alias walls='cd ~/pix/Wallpapers/'
+#alias wal='wal -i'
+alias consrc='source ~/anaconda3/bin/activate'
+alias venvsrc='source venv/bin/activate'
+alias pymain='python main.py'
+alias stsvc='sudo systemctl start'
+alias backpy='conde && conde'
+alias ydl='youtube-dl'
+#########################
+#	  G I T         #
+#########################
+alias gplo='git pull origin'
+alias gpso='git push origin'
+alias gplom='git pull origin master'
+alias gpsom='git push origin master'
+alias ga='git add -A'
+alias gc='git commit -m'
+alias gcl='git clone'
+alias gb='git branch -a'
+alias gst='git status'
+alias gch='git checkout'
+#########################
+#	C O N F		#
+#########################
+alias zshrc='vim ~/.zshrc'
+alias bashrc='vim ~/.bashrc'
+alias aliasrc='vim ~/.config/aliasrc && source ~/.zshrc'
+alias xrc='vim ~/.Xresources && xrdb .Xresources'
+alias vimrc='vim ~/.config/nvim/init.vim'
