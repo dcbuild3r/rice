@@ -1,0 +1,24 @@
+window:
+  opacity: 0.8
+
+font:
+  normal:
+    family: SourceCodePro
+    style: Regular
+
+  bold:
+    family: SourceCodePro
+    style: Bold
+
+  italic:
+    family: SourceCodePro
+    style: Italic
+
+  bold_italic:
+    family: SourceCodePro
+    style: Bold Italic
+
+  size: 14
+
+import:
+  - ~/.alacritty-colorscheme/themes/ayu_dark.yaml

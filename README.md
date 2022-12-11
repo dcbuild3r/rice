@@ -1,12 +1,11 @@
-![Rice](screenshot.png)
+![Rice](neofetch.png)
 
-![Solidity environment](inheritance.png)
 
-# My BSPWM rice
+# My Awesome rice
 
 OS: Arch Linux
 
-WM: bspwm, KDE Plasma
+WM: AwesomeWM
 
 Bar: Polybar
 
@@ -14,6 +13,4 @@ Terminal: Alacritty
 
 Shell: zsh
 
-Shortcuts daemon: sxhkd
-
-Colorscheme: pywal
+Runner: rofi
